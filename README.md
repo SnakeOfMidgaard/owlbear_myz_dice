@@ -1,6 +1,8 @@
 # Mutant:Year Zero Dice for Owlbear Rodeo
 
-3D dice extension for playing Mutant: Year Zero and its' expansions in OwlBear Rodeo!
+3D dice extension for playing Mutant: Year Zero and its' expansions in OwlBear Rodeo, based on the [OwlBear Rodeo Dice Extension](https://github.com/owlbear-rodeo/dice).
+
+
 
 Thanks to the OwlBear Rodeo dev team for letting amateurs like me fiddle with their Dice roller
 
@@ -10,7 +12,11 @@ MASSIVE thanks to [jjsoini](https://github.com/jjsoini/) for help with the Pushi
 
 ## Installing
 
-The extension can be installed by copy-pasting [this link](https://myz-dice.onrender.com/) into your extensions in at owlbear.rodeo.
+The extension can be installed by clicking the "ADD EXTENSION" button on your Owlbear Rodeo profile and copy-pasting this link into the URL field.
+
+```sh
+https://myz-dice.onrender.com/
+```
 
 ## How it Works
 
@@ -18,15 +24,7 @@ This project uses [React](https://reactjs.org/) for UI, [Three.js](https://three
 
 The physics simulation is used to both generate the animation for the roll as well as the final roll values.
 
-> Wait is it really random if physics is used to determine the result? How do I know the dice rolls are fair?
-
-Short answer yes, the dice are fair. Long answer [here's a statistical analysis](https://blog.owlbear.rodeo/are-owlbear-rodeos-dice-fair/) of the rolling methodology.
-
-In order to sync rolls over the network efficiently we rely on the fact the Rapier is a deterministic physics engine. This means that across two different computers we'll get the same result given the same initial parameters.
-
-So we only need to make sure that all the initial parameters are synced and then each client can run its own simulation and end up with the correct animation.
-
-To try out the dice roller outside of Owlbear Rodeo you can head to <https://dice.owlbear.rodeo/>.
+Read more in their [original repo](https://github.com/owlbear-rodeo/dice)!
 
 ## Building
 
@@ -65,11 +63,3 @@ All the code specific for the Owlbear Rodeo extension is in the `plugin` folder.
 ## License
 
 GNU GPLv3
-
-## Contributing
-
-This project is provided as an example of how to use the Owlbear Rodeo SDK. As such it is unlikely that we will accept pull requests for new features.
-
-Instead we encourage you to fork this repository and build the dice roller of your dreams.
-
-Copyright (C) 2023 Owlbear Rodeo
