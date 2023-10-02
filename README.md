@@ -1,12 +1,16 @@
-# Owlbear Rodeo Dice
+# Mutant:Year Zero Dice for Owlbear Rodeo
 
-Beautiful 3D dice extension for d20 based systems
+3D dice extension for playing Mutant: Year Zero and its' expansions in OwlBear Rodeo!
+
+Thanks to the OwlBear Rodeo dev team for letting amateurs like me fiddle with their Dice roller
+
+MASSIVE thanks to [jjsoini](https://github.com/jjsoini/) for help with the Pushing function. Check him out!
 
 ![Example](/docs/header.jpg)
 
 ## Installing
 
-The extension can be installed from the [store page](https://extensions.owlbear.rodeo/dice).
+The extension can be installed by copy-pasting [this link](https://myz-dice.onrender.com/) into your extensions in at owlbear.rodeo.
 
 ## How it Works
 

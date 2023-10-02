@@ -1,9 +1,9 @@
 {
   "name": "MYZ Dice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 1,
   "author": "Zonrotan",
-  "homepage_url": "https://discord.gg/yzw",
+  "homepage_url": "https://github.com/SnakeOfMidgaard/owlbear_myz_dice",
   "icon": "/logo.png",
   "description": "3D dice extension for Mutant Year Zero",
   "action": {
