@@ -26,6 +26,8 @@ export function DiceSetPicker() {
     setAnchorEl(null);
   }
 
+
+/** Dice Style Picker (not used in MYZ)
   return (
     <>
       <IconButton
@@ -84,5 +86,5 @@ export function DiceSetPicker() {
         </Stack>
       </Menu>
     </>
-  );
+  ); **/
 }

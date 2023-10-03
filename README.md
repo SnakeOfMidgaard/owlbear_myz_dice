@@ -19,7 +19,6 @@ https://myz-dice.onrender.com/
 ```
 
 ## How it Works
-
 This project uses [React](https://reactjs.org/) for UI, [Three.js](https://threejs.org/) for rendering and [Rapier](https://rapier.rs/) for physics.
 
 The physics simulation is used to both generate the animation for the roll as well as the final roll values.
