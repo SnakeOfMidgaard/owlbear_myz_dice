@@ -1,4 +1,4 @@
-# Mutant:Year Zero Dice for Owlbear Rodeo
+# Mutant: Year Zero Dice for Owlbear Rodeo
 
 3D dice extension for playing Mutant: Year Zero and its' expansions in OwlBear Rodeo, based on the [OwlBear Rodeo Dice Extension](https://github.com/owlbear-rodeo/dice).
 
